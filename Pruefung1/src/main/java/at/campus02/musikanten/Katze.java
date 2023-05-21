@@ -17,4 +17,12 @@ public class Katze extends Musikant {
 	public double spieleMusik() {
 		return 0;
 	}
+
+	@Override
+	public String toString() {
+		return "Katze:" +
+				"kratzKraft=" + kratzKraft +
+				", anzahlBeine=" + anzahlBeine +
+				", instrument=" + instrument ;
+	}
 }

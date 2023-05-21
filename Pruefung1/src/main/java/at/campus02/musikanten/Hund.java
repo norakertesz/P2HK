@@ -11,4 +11,17 @@ public class Hund extends Musikant{
 	public int verscheueRaeuber() {
 		return 0;
 	}
+
+	@Override
+	public double spieleMusik() {
+		return 0;
+	}
+
+	@Override
+	public String toString() {
+		return "Hund:" +
+				"bellLautstaerke=" + bellLautstaerke +
+				", anzahlBeine=" + anzahlBeine +
+				", instrument=" + instrument ;
+	}
 }

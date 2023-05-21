@@ -27,4 +27,17 @@ public class Hahn extends Musikant {
 
 		return rauber;
 	}
+
+	@Override
+	public double spieleMusik() {
+		return 0;
+	}
+
+	@Override
+	public String toString() {
+		return "Hahn:" +
+				"flugWeite=" + flugWeite +
+				", anzahlBeine=" + anzahlBeine +
+				", instrument=" + instrument ;
+	}
 }
