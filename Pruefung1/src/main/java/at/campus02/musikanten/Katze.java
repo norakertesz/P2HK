@@ -8,13 +8,29 @@ public class Katze extends Musikant {
 
 	}
 
-	@Override
-	public int verscheueRaeuber() {
-		return 0;
-	}
 
 	@Override
 	public double spieleMusik() {
-		return 0;
+		return instrument.getLautstaerke();
+	}
+	@Override
+	public int verscheueRaeuber() {
+		if(anzahlBeine >= 4)
+		{
+			return (int)kratzKraft;
+		}
+		if(anzahlBeine == 3)
+		{
+			return (int)(kratzKraft/2);
+		}
+		return 1;
+	}
+	@Override
+	public String toString() {
+		return "Katze " + kratzKraft + ":" + super.toString();
 	}
 }
+
+
+
+

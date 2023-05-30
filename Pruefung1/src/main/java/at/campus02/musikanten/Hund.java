@@ -11,4 +11,9 @@ public class Hund extends Musikant{
 	public int verscheueRaeuber() {
 		return 0;
 	}
+
+	@Override
+	public double spieleMusik() {
+		return 0;
+	}
 }

@@ -22,6 +22,8 @@ public abstract class Musikant {
     public abstract double spieleMusik();
 
 
+
+
     @Override
     public String toString() {
 
