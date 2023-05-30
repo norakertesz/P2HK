@@ -12,4 +12,17 @@ public class Esel extends Musikant{
 	public int verscheueRaeuber() {
 		return (int) (trittkraft*anzahlBeine);
 	}
+
+	@Override
+	public double spieleMusik() {
+		return 0;
+	}
+
+	@Override
+	public String toString() {
+		return "Esel:" +
+				"trittkraft=" + trittkraft +
+				", anzahlBeine=" + anzahlBeine +
+				", instrument=" + instrument ;
+	}
 }
