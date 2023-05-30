@@ -30,13 +30,7 @@ public class Katze extends Musikant {
 		return "Katze " + kratzKraft + ":" + super.toString();
 	}
 
-	@Override
-	public String toString() {
-		return "Katze:" +
-				"kratzKraft=" + kratzKraft +
-				", anzahlBeine=" + anzahlBeine +
-				", instrument=" + instrument ;
-	}
+
 }
 
 
